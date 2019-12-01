@@ -1,12 +1,12 @@
 import { Component }    from '@angular/core';
-import { ThemeService } from './theme.service';
+import { ThemeService } from '../theme.service';
 
 @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: [ './app.component.scss' ]
+    selector: 'app-child',
+    templateUrl: './child.component.html',
+    styleUrls: [ './child.component.scss' ]
 })
-export class AppComponent {
+export class ChildComponent {
 
     /**
      * Inject the theme service which will be called by our button (click).
