@@ -1,0 +1,15 @@
+<div class="wrapper" [class.dark-mode]="themeService.darkMode">
+
+    <div class="text">
+
+        Dark Mode Enabled? {{ themeService.darkMode ? 'YES' : 'NO' }}
+
+    </div>
+
+    <div class="button">
+
+        <button (click)="themeService.toggle()">Toggle!</button>
+
+    </div>
+
+</div>
